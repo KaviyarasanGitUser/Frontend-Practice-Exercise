@@ -1,0 +1,37 @@
+html{
+    font-size: 12px;
+}
+body{
+    font-size: 10px;
+}
+table{
+    width: 300px;
+    height: 200px;
+}
+thead,
+tfoot{
+    background-color: #427fef;
+    text-align: left;
+    height: 35px;
+}
+table,
+td{
+    margin: 2%;
+    border-bottom: 1px solid #c4dcf3;
+    border-collapse: collapse;
+}
+th{
+    color: white;
+}
+tbody tr:nth-child(odd){
+    background-color: #eef7ff
+}
+
+.box{
+    margin: 2%;
+    height: 300px;
+    width: 300px;
+    background-color: tomato;
+    box-shadow: 10px 10px lightgrey;
+    border-radius: 10px;
+}

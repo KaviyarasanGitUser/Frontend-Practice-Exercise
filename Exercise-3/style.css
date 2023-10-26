@@ -1,0 +1,30 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    border: 3px solid black;
+    width: 80%;
+    margin: auto 10%;
+}
+img{
+    width: inherit;
+    height: 300px;
+    margin: auto 10%;
+    object-fit:contain
+}
+h1,h2,h3{
+    margin: 2% 10%;
+}
+li{
+    margin: auto 10%;
+}
+.lead{
+    margin: 2% 10%;
+    font-family: 'AR One Sans', sans-serif;
+    font-style: italic;
+}
+ @media screen and (min-width:768px){
+    img{
+        object-fit: cover;
+    }
+ }

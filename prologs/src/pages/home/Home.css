@@ -1,0 +1,18 @@
+.nav-container{
+    box-sizing: border-box;
+    display: flex;
+}
+.main-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(244, 246, 247)
+}
+.project-menu-container{
+    display: flex;
+    width: 90%;
+    margin: auto 5%;
+}
+.project-detail-container{
+    margin: auto 5%;
+}
